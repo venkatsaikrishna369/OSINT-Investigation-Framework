@@ -1,0 +1,15 @@
+id,source_type,information,url,date,confidence
+SRC-001,WHOIS,domain_registration,whois:chicken-road2.app,2026-08-04T13:53:21.233489,High
+SRC-DNS-A,DNS Resolver,DNS A,dns:chicken-road2.app,2026-08-04T13:53:21.663631,High
+SRC-DNS-AAAA,DNS Resolver,DNS AAAA,dns:chicken-road2.app,2026-08-04T13:53:21.813896,High
+SRC-DNS-NS,DNS Resolver,DNS NS,dns:chicken-road2.app,2026-08-04T13:53:22.771997,High
+SRC-DNS-TXT,DNS Resolver,DNS TXT,dns:chicken-road2.app,2026-08-04T13:53:22.796884,High
+SRC-DNS-SOA,DNS Resolver,DNS SOA,dns:chicken-road2.app,2026-08-04T13:53:23.234238,High
+SRC-IP-001,IP Intelligence,IP Resolution,ip:chicken-road2.app,2026-08-04T13:53:33.528776,High
+SRC-SSL-001,Certificate Transparency,SSL Certificate,https://chicken-road2.app,2026-08-04T13:53:33.875363,High
+SRC-HDR-001,HTTP Headers,Security Headers,https://chicken-road2.app,2026-08-04T13:53:35.665683,High
+SRC-TECH-001,Technology Detection,Tech Stack,https://chicken-road2.app,2026-08-04T13:53:36.805173,Medium
+SRC-SUB-001,Certificate Transparency,Subdomain Discovery,ct:chicken-road2.app,2026-08-04T13:53:50.611230,High
+SRC-WEB-001,Web Content,Page Analysis,https://chicken-road2.app,2026-08-04T13:53:51.756897,Medium
+SRC-ROB-001,robots.txt,Robots Analysis,https://chicken-road2.app/robots.txt,2026-08-04T13:53:52.016566,High
+SRC-SIT-001,Sitemap,Sitemap Analysis,https://chicken-road2.app/sitemap.xml,2026-08-04T13:53:52.188144,High

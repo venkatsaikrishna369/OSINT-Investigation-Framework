@@ -1,0 +1,524 @@
+{
+  "target": "chicken-road2.app",
+  "collection_date": "2026-08-04T13:46:13.054758",
+  "data": {
+    "domain": {
+      "registrar": "Unknown",
+      "creation_date": "Unknown",
+      "expiration_date": "Unknown",
+      "updated_date": "Unknown",
+      "nameservers": [],
+      "domain_status": [],
+      "domain_age_days": 0,
+      "days_until_expiry": 0,
+      "registrant": "Redacted/Private",
+      "admin": "Redacted/Private",
+      "tech": "Redacted/Private"
+    },
+    "dns": {
+      "A": [
+        "172.67.137.239",
+        "104.21.38.193"
+      ],
+      "AAAA": [
+        "2606:4700:3034::6815:26c1",
+        "2606:4700:3030::ac43:89ef"
+      ],
+      "MX": [],
+      "NS": [
+        "denver.ns.cloudflare.com.",
+        "autumn.ns.cloudflare.com."
+      ],
+      "TXT": [
+        "\"google-site-verification=0wvhA6b5wO4XvHwi25O0BDtvDU1zxYWWnF4yNXsZsFk\""
+      ],
+      "CAA": [],
+      "CNAME": [],
+      "SOA": [
+        "autumn.ns.cloudflare.com. dns.cloudflare.com. 2410693219 10000 2400 604800 1800"
+      ],
+      "SRV": [],
+      "PTR": []
+    },
+    "ip": {
+      "104.21.38.193": {
+        "asn": "AS13335 Cloudflare, Inc.",
+        "asn_org": "Cloudflare, Inc.",
+        "isp": "Cloudflare, Inc.",
+        "country": "Canada",
+        "country_code": "CA",
+        "region": "Ontario",
+        "city": "Toronto",
+        "postal": "M5A",
+        "timezone": "America/Toronto",
+        "latitude": 43.6532,
+        "longitude": -79.3832,
+        "network": "Cloudflare, Inc.",
+        "reverse_dns": null,
+        "hosting_type": "CDN (Cloudflare)"
+      },
+      "172.67.137.239": {
+        "asn": "AS13335 Cloudflare, Inc.",
+        "asn_org": "Cloudflare, Inc.",
+        "isp": "Cloudflare, Inc.",
+        "country": "Canada",
+        "country_code": "CA",
+        "region": "Ontario",
+        "city": "Toronto",
+        "postal": "M5A",
+        "timezone": "America/Toronto",
+        "latitude": 43.6532,
+        "longitude": -79.3832,
+        "network": "Cloudflare, Inc.",
+        "reverse_dns": null,
+        "hosting_type": "CDN (Cloudflare)"
+      }
+    },
+    "ssl": {
+      "subject": {
+        "commonName": "chicken-road2.app"
+      },
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "not_before": "Jul  5 03:37:50 2026 GMT",
+      "not_after": "Oct  3 04:37:48 2026 GMT",
+      "subjectAltName": [
+        [
+          "DNS",
+          "chicken-road2.app"
+        ],
+        [
+          "DNS",
+          "*.chicken-road2.app"
+        ]
+      ],
+      "version": 3,
+      "serialNumber": "42E66D0F2511D0E60E69DFDFE91E7FC7",
+      "cipher_suite": "TLS_AES_256_GCM_SHA384",
+      "cipher_protocol": "TLSv1.3",
+      "cipher_key_bits": 256,
+      "signature_algorithm": "Unknown",
+      "days_until_expiry": 0
+    },
+    "headers": {
+      "raw": {
+        "Date": "Tue, 04 Aug 2026 08:16:27 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Age": "0",
+        "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DDnBOZKcftRLu6iosnFEcrKRTIhI5QrgLkYUgW%2Bw4ZlmOIqUUDxLSEH%2FdwsbRECzRrFrK8E9uIOd9v7JP8CS1xB3A%2BW%2Fk5L4S49ZI3jFkLd2kv5k%2BC8uvPITH%2BdZ%2Fqn759wcyztNBJ8%3D\"}]}",
+        "Link": "</_next/static/media/01f0c602c274ea55-s.p.woff2?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/1b7c30bb028884cf-s.p.woff2?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/5db793e17e240198.css?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE>; rel=preload; as=\"style\"",
+        "Server": "cloudflare",
+        "strict-transport-security": "max-age=63072000",
+        "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+        "x-matched-path": "/",
+        "x-powered-by": "Next.js",
+        "x-vercel-cache": "MISS",
+        "x-vercel-id": "sin1::iad1::cdc5d-1785831386495-a3f92e60ef36",
+        "cf-cache-status": "DYNAMIC",
+        "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+        "Content-Encoding": "br",
+        "CF-RAY": "a25c1eb569dcd18a-SIN",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "security_headers": {
+        "content-security-policy": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        },
+        "strict-transport-security": {
+          "value": "max-age=63072000",
+          "status": "Present",
+          "score": 2
+        },
+        "x-content-type-options": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        },
+        "x-frame-options": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        },
+        "referrer-policy": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        },
+        "permissions-policy": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        },
+        "cache-control": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        },
+        "server": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        },
+        "x-powered-by": {
+          "value": "Next.js",
+          "status": "Present",
+          "score": -1
+        },
+        "x-xss-protection": {
+          "value": "MISSING",
+          "status": "Missing",
+          "score": 0
+        }
+      },
+      "security_score": 1,
+      "security_score_percentage": 8,
+      "headers_count": 21
+    },
+    "technologies": {
+      "web_server": [
+        "cloudflare"
+      ],
+      "frontend_frameworks": [],
+      "backend_technologies": [],
+      "javascript_libraries": [],
+      "css_frameworks": [],
+      "analytics": [],
+      "cdn": [
+        "Cloudflare"
+      ],
+      "hosting_platform": [],
+      "cms": [],
+      "ecommerce": [],
+      "security_services": [
+        "Cloudflare"
+      ]
+    },
+    "subdomains": {
+      "discovered": [
+        "www.chicken-road2.app"
+      ],
+      "count": 1,
+      "wildcard": [],
+      "sources": {
+        "crt.sh": 0,
+        "DNS Brute Force": 1
+      }
+    },
+    "web_content": {
+      "title": "Chicken Road 2 \u25b7 Casino Game + Free Demo & Bonus",
+      "meta_description": "Chicken Road 2 is the new mini-game from Inout Games, with stakes as low as $0.01 and up to $10,000 to win in a fast-paced, thrilling experience ! ",
+      "meta_keywords": "",
+      "open_graph": {
+        "og:title": "Chicken Road 2 \u25b7 Casino Game + Free Demo & Bonus",
+        "og:description": "Chicken Road 2 is the new mini-game from Inout Games, with stakes as low as $0.01 and up to $10,000 to win in a fast-paced, thrilling experience ! ",
+        "og:url": "www.chicken-road2.app",
+        "og:site_name": "Chicken Road 2",
+        "og:image": "https://res.cloudinary.com/dzwk5oovk/image/upload/v1747417305/EMD/chicken-road2/chicken-road-2-banner_wxraj0.png",
+        "og:image:type": "image/png",
+        "og:image:width": "900",
+        "og:image:height": "512",
+        "og:image:alt": "Chicken Road 2",
+        "og:type": "website"
+      },
+      "twitter_cards": {
+        "twitter:card": "summary_large_image",
+        "twitter:site": "@",
+        "twitter:title": "Chicken Road 2",
+        "twitter:description": "Chicken Road 2 is the new mini-game from Inout Games, with stakes as low as $0.01 and up to $10,000 to win in a fast-paced, thrilling experience ! ",
+        "twitter:image": "https://res.cloudinary.com/dzwk5oovk/image/upload/v1747416953/EMD/chicken-road2/chicken-road-2-logo_jhrju6.png",
+        "twitter:image:alt": "Chicken Road 2",
+        "twitter:image:type": "image/png",
+        "twitter:image:width": "310",
+        "twitter:image:height": "120"
+      },
+      "links": {
+        "internal": [
+          "/",
+          "/go/play",
+          "/go/play",
+          "/go/play",
+          "/go/play",
+          "/go/play",
+          "/go/play",
+          "/go/play",
+          "/go/play",
+          "/go/play",
+          "/contact"
+        ],
+        "external": [
+          "https://twitter.com/inout_games",
+          "https://www.linkedin.com/company/inoutgames/",
+          "https://www.instagram.com/inout.games/",
+          "https://www.facebook.com/InOutGames/",
+          "https://twitter.com/inout_games",
+          "https://www.instagram.com/inout.games/",
+          "https://www.gambleaware.org/",
+          "https://www.gamcare.org.uk/",
+          "https://chicken-road.net/"
+        ],
+        "scripts": [
+          "/_next/static/chunks/4bd1b696-d3a0b478714afd8c.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/3794-e3edb62c2cc7f7ca.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/main-app-d4b7f8551ba95e13.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/app/layout-7ab10f39b9ecd443.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/8437-15d08c4510c5f9f7.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/8500-1881b11f3cfa4a83.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/6994-9984132fb6d22f2c.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/4237-37fb5bfe6f2fd332.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/app/(nolang)/page-3bab62dcdc2f6b5f.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/chunks/webpack-cbb7affadb059a56.js?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE"
+        ],
+        "stylesheets": [
+          "/_next/static/css/5db793e17e240198.css?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE",
+          "/_next/static/css/9909361bdafaeef3.css?dpl=dpl_36amefBYNatTdoMHFYKzDkucTGWE"
+        ]
+      },
+      "emails": [
+        "support@inout-games.com"
+      ],
+      "social_links": [
+        "https://twitter.com/inout_games",
+        "https://www.linkedin.com/company/inoutgames/",
+        "https://www.instagram.com/inout.games/",
+        "https://www.facebook.com/inoutgames/",
+        "https://twitter.com/inout_games",
+        "https://www.instagram.com/inout.games/"
+      ]
+    },
+    "robots": {
+      "exists": true,
+      "content": "User-Agent: *\nAllow: /\nDisallow: /api/*\nDisallow: /go/*\nDisallow: /pages/condition-utilisation\n\nUser-Agent: AhrefsBot\nDisallow: *\n\nUser-Agent: SemrushBot\nDisallow: /\n\nUser-Agent: dotbot\nDisallow: *\n\nUser-Agent: Screaming Frog SEO Spider\nDisallow: *\n\nUser-Agent: ChatGPT-User\nDisallow: /\n\nSitemap: https://www.chicken-road2.app/sitemap.xml\n",
+      "disallowed_paths": [
+        "/api/*",
+        "/go/*",
+        "/pages/condition-utilisation",
+        "*",
+        "*",
+        "*"
+      ],
+      "sitemap": "https://www.chicken-road2.app/sitemap.xml"
+    },
+    "sitemap": {
+      "exists": true,
+      "content": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n<url>\n<loc>https://www.chicken-road2.app</loc>\n<xhtml:link rel=\"alternate\" hreflang=\"de\" href=\"https://www.chicken-road2.app/de\" />\n<xhtml:link rel=\"alternate\" hreflang=\"es\" href=\"https://www.chicken-road2.app/es\" />\n<xhtml:link rel=\"alternate\" hreflang=\"fr\" href=\"https://www.chicken-road2.app/fr\" />\n<xhtml:link rel=\"alternate\" hreflang=\"pl\" href=\"https://www.chicken-road2.app/pl\" />\n<xhtml:link rel=\"alternate\" hreflang=\"ro\" href=\"https://www.chicken-road2.app/ro\" />\n<lastmod>2026-07-28T03:51:24.188Z</lastmod>\n<priority>1</priority>\n</url>\n</urlset>\n",
+      "urls": [
+        "https://www.chicken-road2.app"
+      ],
+      "count": 1
+    },
+    "additional_osint": {
+      "search_engine_results": [],
+      "public_references": [],
+      "urls_found": [],
+      "public_files": [],
+      "repository_references": []
+    }
+  },
+  "sources": [],
+  "findings": [
+    "SSL Certificate expires in 0 days (HIGH)",
+    "Missing security header: content-security-policy",
+    "Missing security header: x-content-type-options",
+    "Missing security header: x-frame-options",
+    "Missing security header: referrer-policy",
+    "Missing security header: permissions-policy",
+    "Missing security header: cache-control",
+    "Missing security header: x-xss-protection",
+    "Sensitive path exposed in robots.txt: /api/*"
+  ],
+  "risk_assessment": {
+    "score": 70,
+    "level": "HIGH",
+    "findings": [
+      "SSL Certificate expires in 0 days (HIGH)",
+      "Missing security header: content-security-policy",
+      "Missing security header: x-content-type-options",
+      "Missing security header: x-frame-options",
+      "Missing security header: referrer-policy",
+      "Missing security header: permissions-policy",
+      "Missing security header: cache-control",
+      "Missing security header: x-xss-protection",
+      "Sensitive path exposed in robots.txt: /api/*"
+    ],
+    "detailed_risks": [
+      {
+        "category": "SSL",
+        "risk": "Certificate Expiry",
+        "severity": "High"
+      },
+      {
+        "category": "Headers",
+        "risk": "Missing content-security-policy",
+        "severity": "Medium"
+      },
+      {
+        "category": "Headers",
+        "risk": "Missing x-content-type-options",
+        "severity": "Medium"
+      },
+      {
+        "category": "Headers",
+        "risk": "Missing x-frame-options",
+        "severity": "Medium"
+      },
+      {
+        "category": "Headers",
+        "risk": "Missing referrer-policy",
+        "severity": "Medium"
+      },
+      {
+        "category": "Headers",
+        "risk": "Missing permissions-policy",
+        "severity": "Medium"
+      },
+      {
+        "category": "Headers",
+        "risk": "Missing cache-control",
+        "severity": "Medium"
+      },
+      {
+        "category": "Headers",
+        "risk": "Missing x-xss-protection",
+        "severity": "Medium"
+      },
+      {
+        "category": "robots.txt",
+        "risk": "Sensitive Path Exposure",
+        "severity": "Medium"
+      }
+    ],
+    "recommendations": [
+      "Implement comprehensive security headers (CSP, HSTS, X-Frame-Options)",
+      "Enable X-Content-Type-Options: nosniff header",
+      "Enable Permissions-Policy header",
+      "Implement proper access controls for administrative paths",
+      "Enable Referrer-Policy header",
+      "Monitor certificate expiry with proactive alerts",
+      "Review and restrict sensitive paths in robots.txt",
+      "Implement automated SSL certificate renewal process"
+    ]
+  },
+  "recommendations": [],
+  "timeline": [
+    {
+      "date": "Jul  5 03:37:50 2026 GMT",
+      "event": "SSL Certificate Issued",
+      "details": "Current SSL certificate was issued"
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "homepage",
+      "url": "https://chicken-road2.app",
+      "status": 200,
+      "path": "screenshots/homepage_snapshot.html"
+    },
+    {
+      "name": "robots_txt",
+      "url": "https://chicken-road2.app/robots.txt",
+      "status": 200,
+      "path": "screenshots/robots_txt_snapshot.html"
+    },
+    {
+      "name": "sitemap",
+      "url": "https://chicken-road2.app/sitemap.xml",
+      "status": 200,
+      "path": "screenshots/sitemap_snapshot.html"
+    }
+  ],
+  "target_definition": {
+    "target": "chicken-road2.app",
+    "type": "Website/Domain",
+    "investigation_type": "Passive OSINT",
+    "scope": "Publicly available information",
+    "start_date": "2026-08-04T13:46:13.054758",
+    "investigator": "Security Research Team"
+  },
+  "correlation": {
+    "infrastructure_map": {
+      "104.21.38.193": {
+        "dns_records": [
+          "172.67.137.239",
+          "104.21.38.193"
+        ],
+        "asn": "AS13335 Cloudflare, Inc.",
+        "organization": "Cloudflare, Inc.",
+        "hosting_type": "CDN (Cloudflare)",
+        "country": "Canada"
+      },
+      "172.67.137.239": {
+        "dns_records": [
+          "172.67.137.239",
+          "104.21.38.193"
+        ],
+        "asn": "AS13335 Cloudflare, Inc.",
+        "organization": "Cloudflare, Inc.",
+        "hosting_type": "CDN (Cloudflare)",
+        "country": "Canada"
+      }
+    },
+    "attack_surface": [],
+    "security_observations": [
+      {
+        "type": "Missing Security Header",
+        "header": "content-security-policy",
+        "severity": "Medium",
+        "recommendation": "Implement content-security-policy header"
+      },
+      {
+        "type": "Missing Security Header",
+        "header": "x-content-type-options",
+        "severity": "Medium",
+        "recommendation": "Implement x-content-type-options header"
+      },
+      {
+        "type": "Missing Security Header",
+        "header": "x-frame-options",
+        "severity": "Medium",
+        "recommendation": "Implement x-frame-options header"
+      },
+      {
+        "type": "Missing Security Header",
+        "header": "referrer-policy",
+        "severity": "Medium",
+        "recommendation": "Implement referrer-policy header"
+      },
+      {
+        "type": "Missing Security Header",
+        "header": "permissions-policy",
+        "severity": "Medium",
+        "recommendation": "Implement permissions-policy header"
+      },
+      {
+        "type": "Missing Security Header",
+        "header": "cache-control",
+        "severity": "Medium",
+        "recommendation": "Implement cache-control header"
+      },
+      {
+        "type": "Missing Security Header",
+        "header": "x-xss-protection",
+        "severity": "Medium",
+        "recommendation": "Implement x-xss-protection header"
+      },
+      {
+        "type": "Certificate Expiry",
+        "header": "SSL Certificate",
+        "severity": "High",
+        "recommendation": "SSL certificate expires in 0 days. Renew immediately."
+      }
+    ],
+    "relationships": [],
+    "potential_risks": []
+  }
+}

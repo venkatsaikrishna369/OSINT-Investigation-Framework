@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (uncomment if you don't want to track reports)
+# reports/*.html
+# reports/*.pdf
+# reports/*.json
+# sources/*.csv
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.temp
+*.bak
+EOF

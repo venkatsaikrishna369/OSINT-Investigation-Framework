@@ -1,0 +1,51 @@
+# config/target.yaml
+target:
+  domain: chicken-road2.app
+  type: Website/Domain
+  investigation:
+    type: Passive OSINT
+    scope: Publicly available information
+    start_date: 2024-01-15
+    investigator: Security Research Team
+
+modules:
+  domain:
+    enabled: true
+    timeout: 10
+  dns:
+    enabled: true
+    record_types: ['A', 'AAAA', 'MX', 'NS', 'TXT', 'CAA']
+  ip:
+    enabled: true
+    services: ['asn', 'geolocation', 'reverse_dns']
+  ssl:
+    enabled: true
+    ports: [443]
+  headers:
+    enabled: true
+    timeout: 10
+  technologies:
+    enabled: true
+    scan_depth: 3
+  subdomains:
+    enabled: true
+    passive_sources: ['ct_logs', 'passive_dns', 'search_engines']
+  robots:
+    enabled: true
+  sitemap:
+    enabled: true
+  additional_osint:
+    enabled: true
+    sources: ['search_engines', 'public_repos', 'url_indexes']
+
+reporting:
+  formats: ['pdf', 'html', 'json']
+  sections: ['all']
+  include_screenshots: true
+  include_raw_data: true
+
+sources:
+  certificate_transparency: true
+  passive_dns: true
+  search_engines: true
+  public_repos: true
