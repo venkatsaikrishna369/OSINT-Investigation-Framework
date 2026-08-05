@@ -72,18 +72,6 @@ pip install -r requirements.txt
 # Run an investigation
 python src/osint_framework_final.py example.com
 
-## Dependencies
-
-The tool requires the following Python packages:
-
-* **aiohttp** - For asynchronous HTTP requests
-* **python-whois** - For WHOIS lookups
-* **dnspython** - For DNS queries
-* **beautifulsoup4** - For HTML parsing
-* **jinja2** - For report templating
-* **pandas** - For data handling
-
-All dependencies are listed in `requirements.txt`.
 
 ---
 
