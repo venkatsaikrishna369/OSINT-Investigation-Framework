@@ -73,9 +73,7 @@ pip install -r requirements.txt
 python src/osint_framework_final.py example.com
 
 
----
 
-## Quick Start
 
 ### Run a Basic Investigation
 
